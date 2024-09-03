@@ -1,0 +1,108 @@
+/* Resetando estilos */
+body, ul {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav {
+    padding: 10px 0;
+    background-color: rgb(170, 170, 170);
+}
+
+.navbar {
+    display: flex;
+    justify-content: center; /* Centraliza links horizontalmente */
+}
+
+.navbar li {
+    margin: 0 15px; /* Espaçamento horizontal entre links */
+}
+
+.navbar a {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 10px 70px;
+    display: block;
+}
+
+.navbar a:hover {
+    background-color: rgb(100, 100, 100);
+    color: white;
+    border-radius: 5px; /* Adiciona bordas arredondadas ao fundo do link ao passar o mouse */
+}
+
+main {
+    padding: 50px 20px;
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.section {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+
+#titulo {
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+section a {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 10px 70px;
+    display: block;
+}
+
+section a:hover {
+        color: rgb(100, 100, 100);
+    }
+
+section p {
+        font-size: 16px;
+        margin: 0;
+        margin-top: 15px;
+    }
+
+p {
+    font-size: 16px;
+    margin: 0;
+    margin-top: 15px;
+}
+
+#formacao ul {
+    list-style: disc;
+    text-align: justify;
+    font-size: 16px;
+}
+
+#index p {
+    font-size: 16px;
+    text-align: justify;
+    margin-top: 10px;
+}
+
+#contato {
+    
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0 auto;
+}
+
+#contato p {
+    font-size: 16px;
+    text-align: justify;
+    margin-top: 10px;
+}
